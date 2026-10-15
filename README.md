@@ -1,2 +1,4 @@
 # los-me-us-o-los-omariscos
-meñu paga
+son dos versiones 
+los omariscddos.html
+los meñus.html
