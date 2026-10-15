@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOS OMARES</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            transition: all 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SYSTEM CORRUPTED...</h1>
+
+    <script>
+        
+        let speech = new SpeechSynthesisUtterance("SISTEMA SOBRECARGADO POR LOS OMARISCOS.");
+        speech.pitch = 0.3; 
+        speech.rate = 0.9;  
+        window.speechSynthesis.speak(speech);
+
+        // 2. Wait 2 seconds, then flip the screen upside down
+        setTimeout(() => {
+            document.body.style.transform = "rotate(180deg)";
+            document.body.style.backgroundColor = "darkred";
+        }, 2000);
+
+        setTimeout(() => {
+            alert("Tu computadora esta poseida por omar.");
+        }, 3500);
+    </script>
+
+</body>
+</html>
